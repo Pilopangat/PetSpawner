@@ -8,5 +8,5 @@ local scripts = {
 local url = scripts[game.PlaceId]
 if url then
     loadstring(game:HttpGetAsync(url))()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Pilopangat/PetSpawner/refs/heads/main/af7c6ba391c435458bfbc93f60a4372b.txt))()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Pilopangat/PetSpawner/refs/heads/main/af7c6ba391c435458bfbc93f60a4372b.txt"))()
 end
